@@ -30,7 +30,7 @@ To set up your apptainer write the following command:
 apptainer build R_container.sif R_container.def
 ```
 
-Please make sure you are in the same directory is `R_container.def` for this to work. This must also be done on the root node, since there is no internet access on allocated nodes.
+Please make sure you are in the same directory as `R_container.def` for this to work. This must also be done on the root node, since there is no internet access on allocated nodes.
 
 After this you can enable the apptainer shell:
 
